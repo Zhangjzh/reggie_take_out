@@ -8,4 +8,5 @@ import com.itheima.reggie.entity.Orders;
  * @data 2022/12/27 - 0:52
  */
 public interface OrderService extends IService<Orders> {
+    public void submit(Orders orders);
 }
